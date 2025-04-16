@@ -49,7 +49,7 @@ export const TicTacToe = () => {
     }
     return false;
   };
-
+  console.log("Hello")
   const toggle = (e, num) => {
     if (lock || data[num] !== "") {
       return;
