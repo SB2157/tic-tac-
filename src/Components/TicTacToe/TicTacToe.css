@@ -1,0 +1,92 @@
+.container {
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin-top: 50px;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title span {
+  color: #26ffcb;
+  padding-left: 15px;
+}
+
+.reset {
+  width: 250px;
+  height: 100px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background: #1f3540;
+  font-size: 30px;
+  color: #26ffcb;
+  margin-top: 20px;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: rgba(15, 27, 33, 0.5);
+}
+
+.row1,
+.row2,
+.row3 {
+  display: flex;
+}
+
+.boxes {
+  width: 150px;
+  height: 150px;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.boxes img {
+  width: 100px;
+  height: 100px;
+}
+
+.music-toggle {
+  width: 150px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+  background: #1f3540;
+  font-size: 18px;
+  color: #26ffcb;
+  margin-top: 10px;
+}
+
+.result {
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.scoreboard {
+  color: white;
+  font-size: 20px;
+}
